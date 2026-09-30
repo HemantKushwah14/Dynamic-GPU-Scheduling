@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GPU Resource Allocation Virtual Lab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1><span class="logo">🧪</span> GPU Resource Allocation Virtual Lab</h1>
+  <p>Interactive demonstration of workload management, task grouping and GPU allocation</p>
+</header>
+
+<div class="controls card">
+  <button id="btnLoad">📥 Load Workload</button>
+  <button id="btnInit">🖥️ Initialize GPUs</button>
+  <button id="btnRun" class="primary">▶ Run</button>
+  <button id="btnPause">⏸ Pause</button>
+  <button id="btnStep">⏭ Step</button>
+  <button id="btnReset">↻ Reset</button>
+  <span class="speed">Simulation Speed:
+    <button class="spd" data-s="0.5">0.5×</button>
+    <button class="spd active" data-s="1">1×</button>
+    <button class="spd" data-s="2">2×</button>
+    <button class="spd" data-s="5">5×</button>
+  </span>
+</div>
+<div id="prog"><i></i></div>
+
+<section id="cards" class="cards"></section>
+
+<main>
+  <div class="card wide cfgcard">
+    <h2>⚙️ Experiment Settings <small>(edit values, then press Apply)</small></h2>
+    <div id="cfg"></div>
+  </div>
+
+  <div class="card wide"><h2>Algorithm Flow</h2><div id="flow"></div></div>
+  <div class="card wide" id="explain"><h2>Current Algorithm Step</h2><div id="explainBody"></div></div>
+
+  <div class="card"><h2>Task Queue</h2><div id="tasks"></div></div>
+  <div class="card"><h2>GPU Environment</h2><div id="gpus"></div></div>
+
+  <div class="card"><h2>Task Groups</h2><div id="groups" class="row"></div>
+    <h3>Resource Requirements</h3><div id="analysis"></div></div>
+  <div class="card"><h2>GPU Partitions</h2><div id="parts"></div></div>
+
+  <div class="card wide"><h2>Allocation Result</h2><div id="alloc"></div></div>
+  <div class="card wide"><h2>Simulation Timeline (task arrivals)</h2><div id="timeline"></div></div>
+</main>
+
+<div id="toast"></div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+[
+    {"id": "T1",  "gpu_requirement": 2, "arrival_time": 0,  "execution_time": 40, "status": "WAITING"},
+    {"id": "T2",  "gpu_requirement": 1, "arrival_time": 2,  "execution_time": 20, "status": "WAITING"},
+    {"id": "T3",  "gpu_requirement": 3, "arrival_time": 5,  "execution_time": 60, "status": "WAITING"},
+    {"id": "T4",  "gpu_requirement": 2, "arrival_time": 8,  "execution_time": 30, "status": "WAITING"},
+    {"id": "T5",  "gpu_requirement": 4, "arrival_time": 10, "execution_time": 50, "status": "WAITING"},
+    {"id": "T6",  "gpu_requirement": 1, "arrival_time": 12, "execution_time": 15, "status": "WAITING"},
+    {"id": "T7",  "gpu_requirement": 2, "arrival_time": 15, "execution_time": 35, "status": "WAITING"},
+    {"id": "T8",  "gpu_requirement": 3, "arrival_time": 18, "execution_time": 45, "status": "WAITING"},
+    {"id": "T9",  "gpu_requirement": 1, "arrival_time": 20, "execution_time": 10, "status": "WAITING"},
+    {"id": "T10", "gpu_requirement": 4, "arrival_time": 24, "execution_time": 55, "status": "WAITING"}
+  ]
