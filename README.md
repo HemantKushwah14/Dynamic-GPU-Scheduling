@@ -1,5 +1,11 @@
 # GPU Resource Allocation Virtual Lab (Phase 1 + Phase 2)
 
+<img width="1920" height="1080" alt="Screenshot 2026-09-30 190541" src="https://github.com/user-attachments/assets/3a9055e9-6311-4a3e-a18a-4eda391d208e" />
+<img width="1920" height="1080" alt="Screenshot 2026-09-30 190604" src="https://github.com/user-attachments/assets/083eafc0-aa62-46c3-bc2e-5e96b3d2fba0" />
+<img width="1920" height="1080" alt="Screenshot 2026-09-30 190617" src="https://github.com/user-attachments/assets/65fa023d-9b5a-432c-befc-3d27711b6428" />
+<img width="1920" height="1080" alt="Screenshot 2026-09-30 190630" src="https://github.com/user-attachments/assets/350b5a83-9a86-4da6-bec1-a430fdd19e20" />
+
+
 Simulated GPU workload management, task grouping and initial allocation.
 No NVIDIA hardware, database or Node.js required.
 
