@@ -15,7 +15,7 @@ No NVIDIA hardware, database or Node.js required.
     python app.py
 Open http://127.0.0.1:5000
 
-## Algorithm ( summary)
+## Algorithm (summary)
 1. Workload: load tasks (WAITING) + 3 simulated GPUs (8 units each)
 2. Grouping: First-Fit Decreasing bin packing, group limit = partition size (4)
 3. Analysis: group requirement vs available GPU capacity -> fits / remaining
